@@ -1,0 +1,72 @@
+body, h1,, h2, h3, p, ul, li, nav {
+    margin: 20;
+    padding: 20;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #69b076;
+    color: #fff; /* White text color */
+    margin: 60px; /* Approximately 2 inches margin on all sides */  
+}
+
+
+img {
+    max-width: 100;
+    height: auto;
+}
+
+.image-collage {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+.image-collage img {
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: "jumble", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+nav {
+    background-color: #356f4d; /* Darker green */
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+nav a:hover {
+    color: #69b076; 
+}
+
+/* Footer Styles (optional) */
+footer {
+    background-color: #356f4d; /* Darker green footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Links Styles */
+a {
+    color: #69b076; /* Matcha green for links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #356f4d; /* Darker green on hover */
+}
+

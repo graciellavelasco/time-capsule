@@ -1,0 +1,7 @@
+# Project Overview
+- This is a personal website used to share biography and likes. Website is shown with text and images
+to share personaity. 
+
+# Technical Overview
+- The site is coded in HTML and CSS that contains data about my life. There are four pages that link to 
+each other and one CSS style sheet per page. I have also included external links in one of the pages to redirect the user. 

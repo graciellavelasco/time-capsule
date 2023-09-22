@@ -5,7 +5,7 @@ body, h1,, h2, h3, p, ul, li, nav {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #69b076;
+    background-color: #B0BF91;
     color: #fff; /* White text color */
     margin: 60px; /* Approximately 2 inches margin on all sides */
 }
@@ -42,20 +42,35 @@ h3 {
     font-weight: 200;
     font-style: normal;  
 }
+
 nav {
-    background-color: #356f4d; /* Darker green */
-    text-decoration: none;
+    background-color: #2E2E2E; /* Background color for the navigation */
+    padding: 30px; /* Add padding to create space around the navigation */
+    border-radius: 20px;
+}
+
+/* Style the navigation list (<ul>) */
+nav ul {
+    list-style: none; /* Remove the default list style */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
     text-align: center;
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    
 }
 
-
-nav a:hover {
-    color: #69b076; 
+/* Style the navigation items (<li>) */
+nav li {
+    display: inline;/* Display list items horizontally */
+    margin-right: 20px;
+    text-decoration: none;
 }
 
+nav a {
+    text-decoration: none;
+}
 /* Footer Styles (optional) */
 footer {
     background-color: #356f4d; /* Darker green footer */

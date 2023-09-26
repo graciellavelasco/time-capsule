@@ -14,8 +14,6 @@ body {
 img {
     max-width: 500px;
     height: auto;
-    border: 5px solid #fff;
-    box-shadow: 0 0 5px #356f4d
 }
 
 .flex-container {
@@ -34,18 +32,18 @@ img {
     margin: 0;
 }
 
-header {
+.header {
     color: #fff;
     padding: 20px;
     text-align: center;
     font-family: "jumble", sans-serif;
-    font-size: large;
+    font-size: 90px;
     font-weight: 400;
     font-style: normal;  
 }
 
 nav {
-    background-color: #2E2E2E; /* Background color for the navigation */
+    background-color: #252601;/* Background color for the navigation */
     padding: 30px; /* Add padding to create space around the navigation */
     border-radius: 20px;
 }
@@ -69,8 +67,14 @@ nav li {
 }
 
 nav a {
-    text-decoration: none
+    text-decoration: none;
+    color: white;
 }
+
+nav a:hover {
+    color: #B0BF91;
+}
+
 
 /*nav {
     background-color: #2E2E2E;

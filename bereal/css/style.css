@@ -15,6 +15,14 @@ img {
     height: auto;
 }
 
+.gif {
+    width: 5px;
+    width: 20%;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+}
+
 .image-collage {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -25,13 +33,14 @@ img {
     border: 2px solid #fff;
     box-shadow: 0 0 5px rgba(0,0,0,0.2)
 }
-h1 {
+.header {
     color: #fff;
     padding: 20px;
     text-align: center;
     font-family: "jumble", sans-serif;
+    font-size: 90px;
     font-weight: 400;
-    font-style: normal;  
+    font-style: normal;   
 }
 
 h3 {
@@ -44,7 +53,7 @@ h3 {
 }
 
 nav {
-    background-color: #2E2E2E; /* Background color for the navigation */
+    background-color: #252601; /* Background color for the navigation */
     padding: 30px; /* Add padding to create space around the navigation */
     border-radius: 20px;
 }
@@ -58,7 +67,6 @@ nav ul {
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
-    
 }
 
 /* Style the navigation items (<li>) */
@@ -70,23 +78,10 @@ nav li {
 
 nav a {
     text-decoration: none;
-}
-/* Footer Styles (optional) */
-footer {
-    background-color: #356f4d; /* Darker green footer */
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+    color: white;
 }
 
-/* Links Styles */
-a {
-    color: #69b076; /* Matcha green for links */
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: #356f4d; /* Darker green on hover */
+nav a:hover {
+    color: #B0BF91;
 }
 

@@ -27,35 +27,18 @@ h3 {
     color: #fff;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.image-collage {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-    align-items: center;
-}
-
-.image-collage img {
-    border: 2px solid #fff;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2)
-}
-
-
-header {
+.header {
     color: #fff;
     padding: 20px;
     text-align: center;
     font-family: "jumble", sans-serif;
+    font-size: 90px;
     font-weight: 400;
-    font-style: normal;  
+    font-style: normal; 
 }
 
 nav {
-    background-color: #2E2E2E; /* Background color for the navigation */
+    background-color: #252601; /* Background color for the navigation */
     padding: 30px; /* Add padding to create space around the navigation */
     border-radius: 20px;
 }
@@ -69,7 +52,6 @@ nav ul {
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
-    
 }
 
 /* Style the navigation items (<li>) */
@@ -81,5 +63,28 @@ nav li {
 
 nav a {
     text-decoration: none;
+    color: white;
 }
 
+nav a:hover {
+    color: #B0BF91;
+}
+    
+
+img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+.image-collage {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        align-items: center;
+    }
+    
+.image-collage img {
+        border: 2px solid #fff;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2)
+    }
+    

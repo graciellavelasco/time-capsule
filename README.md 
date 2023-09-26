@@ -10,8 +10,9 @@
   - ## Navigation bar includes 4 separate links that leads to each page. The page includes 2 types of states for the links: hover state and default state.
   - ## On each page, I have increased the text size of the header to let the user easily read and understand what page they are currently viewing.
 
-# Acknolowdgement
+# Acknolodgement
 - ## Adobe Fonts
     ### Use of font families for the project. Including: Jumble and Helvetica. 
 - ## "Image-Collage" code in HTML and CSS to create a collage on the wesbite. 
 - ## Spotify embedded links to embed individual playlists on website. 
+- ## Adobe Color to grasp color hex codes to include in CSS. 

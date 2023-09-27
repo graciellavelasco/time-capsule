@@ -31,7 +31,7 @@ h3 {
 }
 
 .spotify {
-    width: 600px;
+    width: 500px;
     height: 280px;
     margin: 20px;
 }
@@ -43,9 +43,14 @@ h3 {
     gap: 10px;
 }
 
-.flex-container p {
+.link {
+    width: 600px;
+    height: 280px;
+    margin: 20px;
+}
+
+.paragraph {
     display: flex;
-    flex:
     padding: 10px;
     text-align: center;
     justify-content: space-between;
@@ -83,3 +88,4 @@ nav a {
 
 nav a:hover {
     color: #B0BF91;
+}

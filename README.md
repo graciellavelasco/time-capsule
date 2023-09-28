@@ -2,7 +2,7 @@
  For the Time Capsule Website project, I have created a multi-page personal website that is used to share my digital footprint. This website features a description about myself on the home page, following along with three other pages that includes my current usage date with my chosen apps and sites. My website is shown with text, images and a cohesive colored theme to share my personality. Building this website has helped me build my skills in HTML and CSS coding to create a functional site with visuals and design principles. I have also learned the process of being able to create a shareable link to access my website by creating a repsoitory on GitHub. 
 
 # Technical Overview
-  - Current Status: 95% done, finishing the last touches and details. 
+  - Current Status: 100%, applied all the code and missing touches to visuals.
   - Application: Visual Studio Code was used to create HTML and CSS code for the website.
   - Created with 4 types of HTML files for each page, and having an individual CSS file for each HTML.
   - Web-safe fonts were downloaded from Adobe Fonts including: Jumble and Helvetica. 
@@ -16,3 +16,5 @@
 - "Image-Collage" code in HTML and CSS to create a collage on the wesbite. 
 - Spotify embedded links to embed individual playlists on website. 
 - Adobe Color to grasp color hex codes to include in CSS. 
+- https://blog.eazyplugins.com/how-to-align-images-in-css-grid/
+- https://www.w3schools.com/cssref/pr_grid-template-columns.php

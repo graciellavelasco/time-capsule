@@ -36,18 +36,20 @@ h3 {
     margin: 20px;
 }
 
+
+
 .flex-container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
 }
 
-.link {
-    width: 600px;
-    height: 280px;
-    margin: 20px;
+.flex-item {
+    text-align: center;
+    flex: 0 1 calc(50% - 20px);
 }
+
 
 .paragraph {
     display: flex;
@@ -58,8 +60,8 @@ h3 {
 }
 
 nav {
-    background-color: #252601; /* Background color for the navigation */
-    padding: 30px; /* Add padding to create space around the navigation */
+    background-color: #252601; 
+    padding: 30px; 
     border-radius: 20px;
 }
 

@@ -6,8 +6,8 @@ body, h1,, h2, h3, p, ul, li, nav {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #B0BF91;
-    color: #fff; /* White text color */
-    margin: 60px; /* Approximately 2 inches margin on all sides */
+    color: #fff; 
+    margin: 60px;
 }
 
 
@@ -65,20 +65,20 @@ nav {
     border-radius: 20px;
 }
 
-/* Style the navigation list (<ul>) */
+
 nav ul {
-    list-style: none; /* Remove the default list style */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
     text-align: center;
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
 }
 
-/* Style the navigation items (<li>) */
+
 nav li {
-    display: inline;/* Display list items horizontally */
+    display: inline;
     margin-right: 20px;
     text-decoration: none;
 }
@@ -90,4 +90,14 @@ nav a {
 
 nav a:hover {
     color: #B0BF91;
+}
+
+.gif {
+    width: 5px;
+    width: 20%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }

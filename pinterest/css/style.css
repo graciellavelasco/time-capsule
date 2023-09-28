@@ -45,25 +45,25 @@ h3 {
 }
 
 nav {
-    background-color: #252601; /* Background color for the navigation */
-    padding: 30px; /* Add padding to create space around the navigation */
+    background-color: #252601; 
+    padding: 30px; 
     border-radius: 20px;
 }
 
-/* Style the navigation list (<ul>) */
+
 nav ul {
-    list-style: none; /* Remove the default list style */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
     text-align: center;
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
 }
 
-/* Style the navigation items (<li>) */
+
 nav li {
-    display: inline;/* Display list items horizontally */
+    display: inline;
     margin-right: 20px;
     text-decoration: none;
 }
@@ -92,6 +92,18 @@ nav a:hover {
 .flex-item img {
     max-width: 100%;
 }
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gif {
+    width: 5px;
+    width: 20%;
+}
+
 /*.flex-container {
     display: grid; 
     height: 100vh; 

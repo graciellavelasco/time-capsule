@@ -6,8 +6,8 @@ body, h1,, h2, h3, p, ul, li, nav {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #B0BF91;
-    color: #fff; /* White text color */
-    margin: 60px; /* Approximately 2 inches margin on all sides */
+    color: #fff; 
+    margin: 60px; 
 }
 
 img {
@@ -18,9 +18,6 @@ img {
 .gif {
     width: 5px;
     width: 20%;
-    height: auto;
-    align-items: center;
-    justify-items: center;
 }
 
 .image-collage {
@@ -84,4 +81,6 @@ nav a {
 nav a:hover {
     color: #B0BF91;
 }
+
+
 
